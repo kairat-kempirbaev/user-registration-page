@@ -1,0 +1,43 @@
+label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+input.custom_field {
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  padding-left: 1.4rem;
+  border: 1px solid rgba(89, 92, 94, 0.55);
+}
+
+input::placeholder {
+  color: rgba(89, 92, 94, 0.77);
+  font-weight: bold;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:not(:focus):invalid + img {
+  opacity: 1;
+}
+
+input.empty {
+  border-color: red;
+}
+
+input.empty + img {
+  opacity: 1;
+}
+
+input.empty + * + p {
+  display: inline-block;
+}
