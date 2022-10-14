@@ -3,7 +3,7 @@ import "./App.css";
 import InputComponent from './InputComponent';
 function App() {
   return (
-    <div className="min-h-screen flex p-6 pt-20  flex-col gap-12 md:gap-0 md:flex-row md:justify-around md:item-center bg-[#ffa2a2] bg-center bg-no-repeat bg-[url('bg-intro-mobile.png')] md:bg-[url('bg-intro-desktop.png')]">
+    <div className="min-h-screen flex p-6 pt-20  flex-col gap-12 md:gap-0 md:flex-row md:justify-around md:item-center bg-[#ffa2a2] bg-center bg-no-repeat bg-[url('/bg-intro-mobile.png')] md:bg-[url('/bg-intro-desktop.png')]">
       <section className="md:basis-2/5 flex flex-col text-center text-white gap-5 justify-center">
         <h1 className="leading-[2rem] text-[2rem]  font-bold mx-auto ">
           Learn to code by watching others
